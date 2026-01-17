@@ -2,8 +2,6 @@
 
 #### PHASE 1 — FOUNDATIONS WITH PURPOSE (Days 1–20)
 
-Basic Python tasks, but with realistic security context.
-
 Write a script that reads a text file and prints the number of lines.
 
 Count how many times each word appears in a file (simple frequency counter).
@@ -46,8 +44,6 @@ Extract unique domains from a list of URLs.
 
 
 #### PHASE 2 — FILES, NETWORK BASICS & AUTOMATION (Days 21–40)
-
-Nothing too intense, but very practical.
 
 Parse Apache/Nginx logs and count HTTP status codes.
 
@@ -92,8 +88,6 @@ Decode all base64 strings found in a text.
 
 #### PHASE 3 — PRACTICAL SECURITY SCRIPTS (Days 41–60)
 
-You’ll feel like a junior analyst automating common tasks.
-
 Scan for weak passwords in a user list (dictionary attack).
 
 Read Windows Event Logs exported to XML and summarize Event IDs.
@@ -137,8 +131,6 @@ Simple correlation: link IP + user + event type across 2 logs.
 
 #### PHASE 4 — BEGINNER AUTOMATION & APIs (Days 61–80)
 
-Still moderate difficulty — mostly parsing and enrichment.
-
 Use a free IP geolocation API to enrich a list of IPs.
 
 Query the HaveIBeenPwned password API (no hash upload needed).
@@ -181,8 +173,6 @@ Build a file quarantine script (move suspicious files to a folder).
 
 
 #### PHASE 5 — CAPSTONE-LEVEL BUT STILL ACCESSIBLE (Days 81–100)
-
-Not overwhelming — just slightly bigger scoped projects.
 
 Build a small log search tool (keyword + timestamp filtering).
 
