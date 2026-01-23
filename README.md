@@ -1,6 +1,6 @@
 ### **100+ Python Challenges**
 
-####This repository has been created as a way to document my progess in my quest to learn python. Challenges have been created (with the help of AI) with a focus on cyber security related tasks, with the overall challenge divided into 5 different phases, as follows:
+#### This repository has been created as a way to document my progess in my quest to learn python. Challenges have been created (with the help of AI) with a focus on cyber security related tasks, with the overall challenge divided into 5 different phases, as follows:
 
 **PHASE 1 — FOUNDATIONS WITH PURPOSE (Days 1–20)**
 
