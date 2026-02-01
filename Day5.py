@@ -4,8 +4,8 @@ import csv
 from collections import Counter
 
 def main():
-    source_ips = extract_source_ips(r"C:\Users\Maurina\Downloads\sample packets.csv")
-    dest_ips = extract_dest_ips(r"C:\Users\Maurina\Downloads\sample packets.csv")
+    source_ips = extract_source_ips(r"[File Path]")
+    dest_ips = extract_dest_ips(r"[File Path]")
     source_count = count_source_ips(source_ips)
     dest_count = count_dest_ips(dest_ips)
     top_five_sources = source_count.most_common(5)
