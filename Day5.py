@@ -1,9 +1,11 @@
+#Day 5 task: Identify the top 5 most common IPs in a log file.
+
 import csv
 from collections import Counter
 
 def main():
-    source_ips = extract_source_ips(r"[file path]")
-    dest_ips = extract_dest_ips(r"[file path]")
+    source_ips = extract_source_ips(r"C:\Users\Maurina\Downloads\sample packets.csv")
+    dest_ips = extract_dest_ips(r"C:\Users\Maurina\Downloads\sample packets.csv")
     source_count = count_source_ips(source_ips)
     dest_count = count_dest_ips(dest_ips)
     top_five_sources = source_count.most_common(5)
@@ -45,3 +47,9 @@ def count_dest_ips(dest_ips):
 
 if __name__ == '__main__':
     main()
+
+# Lessons learned today:
+# Working with CSV files:
+# csv.DictReader() returns a dictionary object with the CSV column headers as keys, and the rows as values. 
+# When working with CSV files, you need to use "newline=''" This prevents python from trying to handle the newline characters,
+# since the CSV module already does that. 
