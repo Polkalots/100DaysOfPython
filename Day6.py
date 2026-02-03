@@ -5,6 +5,7 @@
 # It needs to have both upper and lower case letters.
 # It needs to have at least 1 number.
 # It needs to have at least 1 special character.
+
 def main():
     password = input("What is the password you would like to test? ")
     good_len = len(password) >= 20
@@ -37,7 +38,7 @@ def check_numbers(password):
 
 #Check password for the presence of at least 1 special character
 def check_special_char(password):
-    special_chars = set(" !\"#$%&'()*+,-./:;<=>?@[\]^_`{\|}~")
+    special_chars = set(" !\"#$%&'(\)*+,-./:;<=>?@[]^_`{|}~")
     return any(letter in special_chars for letter in password)
 
 if __name__ == "__main__":
