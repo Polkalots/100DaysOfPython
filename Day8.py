@@ -8,9 +8,15 @@ def main():
     users = read_csv(r"D:\Scripts\Python\100 Days of Python\sample_users.csv")
     # it_users = get_it_users(r"D:\Scripts\Python\100 Days of Python\sample_users.csv")
     all_departments = [user['Department'] for user in users]
+    hr = get_hr(r"D:\Scripts\Python\100 Days of Python\sample_users.csv")
+    hr_names = [user['Full Name'] for user in users]
     for user in users:
         print(f"Name: {user['Full Name']}\nDepartment: {user['Department']}")
-    print(f'Departments:\n {set(all_departments)}')
+    print(f'Departments:\n{set(all_departments)}')
+    print(hr)
+    print(f"HR Employees:")
+    for name in hr_names:
+        print(name)
 
 # Open the CSV file, which contains a list of employee names, start dates, etc, and use csv.DictReader() to create a
 # dictionary reader object, and convert that to a list of dictionaries, with each dictionary representing a
@@ -26,6 +32,11 @@ def get_it_users(file):
     users = read_csv(file) 
     it_users = [user for user in users if user['Department'] == 'IT']
     return it_users
+
+def get_hr(file):
+    users = read_csv(file)
+    hr_users = [user for user in users if user['Department'] == 'HR']
+    return hr_users
 
 if __name__ == '__main__':
     main()
