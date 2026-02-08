@@ -1,0 +1,49 @@
+Full Name,Username,Start Date,Work City,Work State,Device Name,Department
+Alice Bennett,alice.b@company.com,2018-04-16,Seattle,WA,LAP-SEA-001,IT
+Brian Carter,brian.c@company.com,2020-09-21,Portland,OR,LAP-PDX-014,Finance
+Carla Diaz,carla.d@company.com,2019-01-07,San Jose,CA,LAP-SJ-223,HR
+Daniel Edwards,daniel.e@company.com,2017-06-12,Austin,TX,LAP-AUS-032,Engineering
+Emily Foster,emily.f@company.com,2021-03-15,Denver,CO,LAP-DEN-119,Marketing
+Frank Gallagher,frank.g@company.com,2016-11-28,Chicago,IL,LAP-CHI-088,Operations
+Grace Howard,grace.h@company.com,2019-08-05,Boston,MA,LAP-BOS-041,Legal
+Henry Irwin,henry.i@company.com,2018-02-19,Atlanta,GA,LAP-ATL-077,IT
+Isabel Jenkins,isabel.j@company.com,2020-05-11,Raleigh,NC,LAP-RAL-066,HR
+Jack Keller,jack.k@company.com,2017-10-02,Phoenix,AZ,LAP-PHX-090,Sales
+Karen Lewis,karen.l@company.com,2019-07-22,San Diego,CA,LAP-SD-134,Finance
+Liam Martinez,liam.m@company.com,2021-01-25,Miami,FL,LAP-MIA-012,Marketing
+Megan Nelson,megan.n@company.com,2018-09-10,Minneapolis,MN,LAP-MSP-054,IT
+Nathan Owens,nathan.o@company.com,2016-03-14,Columbus,OH,LAP-CMH-027,Engineering
+Olivia Parker,olivia.p@company.com,2020-11-30,Nashville,TN,LAP-BNA-061,HR
+Paul Quinn,paul.q@company.com,2017-05-01,San Antonio,TX,LAP-SAT-148,Operations
+Rachel Simmons,rachel.s@company.com,2019-02-18,Richmond,VA,LAP-RIC-009,Finance
+Samuel Turner,samuel.t@company.com,2021-06-07,Boise,ID,LAP-BOI-018,IT
+Tina Underwood,tina.u@company.com,2018-08-27,Spokane,WA,LAP-GEG-074,Marketing
+Victor Ramirez,victor.r@company.com,2016-12-05,El Paso,TX,LAP-ELP-037,Sales
+Wendy Scott,wendy.s@company.com,2019-04-01,Madison,WI,LAP-MSN-056,HR
+Xavier Thompson,xavier.t@company.com,2020-07-13,Tampa,FL,LAP-TPA-083,Engineering
+Yolanda Vega,yolanda.v@company.com,2018-01-08,Las Vegas,NV,LAP-LAS-101,Finance
+Zachary White,zachary.w@company.com,2017-09-18,Provo,UT,LAP-PVU-004,IT
+Aaron Brooks,aaron.b@company.com,2021-02-01,Plano,TX,LAP-PLN-201,Sales
+Bethany Collins,bethany.c@company.com,2019-06-10,Irvine,CA,LAP-IRV-065,Marketing
+Caleb Dunn,caleb.d@company.com,2016-05-23,Boulder,CO,LAP-BOU-142,Engineering
+Diana Ellis,diana.e@company.com,2020-10-26,Tempe,AZ,LAP-TMP-022,HR
+Ethan Flores,ethan.f@company.com,2018-12-03,Fresno,CA,LAP-FAT-031,Operations
+Fiona Grant,fiona.g@company.com,2019-09-16,Savannah,GA,LAP-SAV-088,Marketing
+George Hall,george.h@company.com,2017-01-09,Dayton,OH,LAP-DAY-055,IT
+Hannah Ingram,hannah.i@company.com,2021-04-19,Lexington,KY,LAP-LEX-014,Finance
+Ian Jacobs,ian.j@company.com,2016-08-15,Ann Arbor,MI,LAP-A2-063,Engineering
+Julia Kim,julia.k@company.com,2018-11-05,Irvine,CA,LAP-IRV-212,HR
+Kevin Lopez,kevin.l@company.com,2019-03-25,Pasadena,CA,LAP-PAS-017,IT
+Laura Moore,laura.m@company.com,2017-07-17,Albany,NY,LAP-ALB-028,Finance
+Mark Nguyen,mark.n@company.com,2020-02-10,San Jose,CA,LAP-SJ-199,Engineering
+Nina Ortiz,nina.o@company.com,2021-08-02,Corpus Christi,TX,LAP-CRP-007,Marketing
+Oscar Patel,oscar.p@company.com,2018-06-18,Edison,NJ,LAP-EDI-051,IT
+Paula Reed,paula.r@company.com,2019-10-14,Santa Fe,NM,LAP-SFE-026,HR
+Quentin Shaw,quentin.s@company.com,2016-04-04,Eugene,OR,LAP-EUG-033,Operations
+Rita Torres,rita.t@company.com,2020-12-07,Salinas,CA,LAP-SNS-018,Sales
+Steven Upton,steven.u@company.com,2017-02-13,Bend,OR,LAP-BND-002,Engineering
+Theresa Vaughn,theresa.v@company.com,2019-05-20,Mobile,AL,LAP-MOB-009,Finance
+Ulysses Ward,ulysses.w@company.com,2018-10-01,Huntsville,AL,LAP-HSV-111,IT
+Vanessa Xu,vanessa.x@company.com,2021-01-11,Cupertino,CA,LAP-CUP-088,Marketing
+William Young,william.y@company.com,2016-09-26,Arlington,VA,LAP-ARL-055,Operations
+Zoe Zimmerman,zoe.z@company.com,2020-06-29,Palo Alto,CA,LAP-PA-041,HR

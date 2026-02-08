@@ -1,4 +1,4 @@
-#Day 4 task: Extract all email addresses from text
+#Day 4 task: Extract all email addresses from text. In this task, I used an email header that I copied into a text file.
 
 import re
 

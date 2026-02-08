@@ -1,0 +1,21 @@
+# Application startup log
+# Environment: dev
+# Analyst notes: initial run after patch
+
+2026-01-30 08:01:12 INFO  Server starting
+2026-01-30 08:01:13 INFO  Loading configuration file
+
+# Temporary debug output below
+2026-01-30 08:01:14 DEBUG Config value cache_size=512
+
+2026-01-30 08:01:15 INFO  Database connection established
+
+# This line is intentionally left blank below
+
+
+2026-01-30 08:01:17 WARN  API response time exceeded threshold
+
+# DEBUG lines will be removed in production
+2026-01-30 08:01:18 DEBUG Retrying request (attempt 2)
+
+2026-01-30 08:01:19 INFO  Request completed successfully

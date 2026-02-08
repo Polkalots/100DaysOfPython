@@ -1,0 +1,101 @@
+timestamp,username,file_name,file_path,action,destination,device_name
+2026-02-07T20:49:08.751348,knguyen,payroll.xlsx,\\nas01\Backups\payroll.xlsx,Created,OneDrive,KNGUYEN-LAPTOP
+2026-02-07T20:49:08.751523,asmith,passwords.txt,C:\Shared\passwords.txt,Created,Email Attachment,ASMITH-LAPTOP
+2026-02-07T20:49:08.751590,dlee,email_passwords.xlsx,C:\Users\dlee\Documents\email_passwords.xlsx,Created,Google Drive,DLEE-LAPTOP
+2026-02-07T20:49:08.751620,mgarcia,service_accounts.xlsx,C:\Temp\service_accounts.xlsx,Copied,OneDrive,MGARCIA-LAPTOP
+2026-02-07T20:49:08.751640,bwilliams,user_credentials.doc,\\nas01\Backups\user_credentials.doc,Uploaded,OneDrive,BWILLIAMS-LAPTOP
+2026-02-07T20:49:08.751659,tsanders,incident_report.doc,C:\Temp\incident_report.doc,Moved,Email Attachment,TSANDERS-LAPTOP
+2026-02-07T20:49:08.751676,dlee,onboarding_notes.docx,\\nas01\Backups\onboarding_notes.docx,Created,Local Disk,DLEE-LAPTOP
+2026-02-07T20:49:08.751698,knguyen,service_accounts.xlsx,C:\Temp\service_accounts.xlsx,Created,USB Drive,KNGUYEN-LAPTOP
+2026-02-07T20:49:08.751720,bwilliams,passwords.txt,C:\Temp\passwords.txt,Copied,OneDrive,BWILLIAMS-LAPTOP
+2026-02-07T20:49:08.751773,bwilliams,legacy_passwords.doc,\\fileserver01\HR\legacy_passwords.doc,Copied,USB Drive,BWILLIAMS-LAPTOP
+2026-02-07T20:49:08.751804,bwilliams,db_logins.txt,\\nas01\Backups\db_logins.txt,Moved,Local Disk,BWILLIAMS-LAPTOP
+2026-02-07T20:49:08.751832,asmith,payroll.xlsx,C:\Users\asmith\Desktop\payroll.xlsx,Created,Email Attachment,ASMITH-LAPTOP
+2026-02-07T20:49:08.751851,lmartin,security_overview.rtf,C:\Users\lmartin\Desktop\security_overview.rtf,Uploaded,USB Drive,LMARTIN-LAPTOP
+2026-02-07T20:49:08.751867,mgarcia,email_passwords.xlsx,\\fileserver01\IT\email_passwords.xlsx,Moved,Email Attachment,MGARCIA-LAPTOP
+2026-02-07T20:49:08.751884,knguyen,security_overview.rtf,C:\Users\knguyen\Documents\security_overview.rtf,Copied,Local Disk,KNGUYEN-LAPTOP
+2026-02-07T20:49:08.751903,lmartin,logins.txt,C:\Users\lmartin\Desktop\logins.txt,Modified,OneDrive,LMARTIN-LAPTOP
+2026-02-07T20:49:08.751920,jdoe,master_passwords.txt,C:\Users\jdoe\Documents\master_passwords.txt,Uploaded,Local Disk,JDOE-LAPTOP
+2026-02-07T20:49:08.751937,jdoe,employee_list.csv,C:\Users\jdoe\Documents\employee_list.csv,Moved,OneDrive,JDOE-LAPTOP
+2026-02-07T20:49:08.751953,bwilliams,legacy_passwords.doc,C:\Temp\legacy_passwords.doc,Created,Local Disk,BWILLIAMS-LAPTOP
+2026-02-07T20:49:08.751982,asmith,email_passwords.xlsx,\\nas01\Backups\email_passwords.xlsx,Uploaded,Email Attachment,ASMITH-LAPTOP
+2026-02-07T20:49:08.752009,tsanders,db_logins.txt,\\nas01\Backups\db_logins.txt,Created,Email Attachment,TSANDERS-LAPTOP
+2026-02-07T20:49:08.752027,asmith,incident_report.doc,\\nas01\Backups\incident_report.doc,Modified,USB Drive,ASMITH-LAPTOP
+2026-02-07T20:49:08.752043,rpatel,incident_report.doc,\\fileserver01\IT\incident_report.doc,Moved,Local Disk,RPATEL-LAPTOP
+2026-02-07T20:49:08.752059,dlee,logins.txt,\\fileserver01\HR\logins.txt,Moved,Email Attachment,DLEE-LAPTOP
+2026-02-07T20:49:08.752077,knguyen,onboarding_notes.docx,C:\Shared\onboarding_notes.docx,Copied,Local Disk,KNGUYEN-LAPTOP
+2026-02-07T20:49:08.752099,bwilliams,legacy_passwords.doc,C:\Shared\legacy_passwords.doc,Moved,Google Drive,BWILLIAMS-LAPTOP
+2026-02-07T20:49:08.752116,bwilliams,ssh_logins.txt,\\fileserver01\IT\ssh_logins.txt,Modified,Google Drive,BWILLIAMS-LAPTOP
+2026-02-07T20:49:08.752142,cjohnson,service_accounts.xlsx,\\fileserver01\IT\service_accounts.xlsx,Copied,Email Attachment,CJOHNSON-LAPTOP
+2026-02-07T20:49:08.752161,cjohnson,user_credentials.doc,C:\Users\cjohnson\Documents\user_credentials.doc,Modified,Local Disk,CJOHNSON-LAPTOP
+2026-02-07T20:49:08.752177,bwilliams,db_logins.txt,\\fileserver01\HR\db_logins.txt,Copied,Email Attachment,BWILLIAMS-LAPTOP
+2026-02-07T20:49:08.752193,asmith,payroll.xlsx,\\fileserver01\IT\payroll.xlsx,Copied,Google Drive,ASMITH-LAPTOP
+2026-02-07T20:49:08.752209,rpatel,ssh_logins.txt,\\fileserver01\IT\ssh_logins.txt,Uploaded,Local Disk,RPATEL-LAPTOP
+2026-02-07T20:49:08.752226,cjohnson,security_overview.rtf,C:\Users\cjohnson\Documents\security_overview.rtf,Copied,Google Drive,CJOHNSON-LAPTOP
+2026-02-07T20:49:08.752243,tsanders,vpn_creds.csv,C:\Users\tsanders\Documents\vpn_creds.csv,Copied,Google Drive,TSANDERS-LAPTOP
+2026-02-07T20:49:08.752259,tsanders,finance_passwords.docx,C:\Shared\finance_passwords.docx,Created,Email Attachment,TSANDERS-LAPTOP
+2026-02-07T20:49:08.752275,knguyen,logins.txt,C:\Users\knguyen\Downloads\logins.txt,Created,Email Attachment,KNGUYEN-LAPTOP
+2026-02-07T20:49:08.752291,lmartin,payroll.xlsx,\\nas01\Backups\payroll.xlsx,Moved,USB Drive,LMARTIN-LAPTOP
+2026-02-07T20:49:08.752307,mgarcia,passwords.txt,\\fileserver01\HR\passwords.txt,Created,Google Drive,MGARCIA-LAPTOP
+2026-02-07T20:49:08.752322,jdoe,service_accounts.xlsx,C:\Temp\service_accounts.xlsx,Copied,Email Attachment,JDOE-LAPTOP
+2026-02-07T20:49:08.752338,knguyen,passwords.txt,C:\Shared\passwords.txt,Modified,USB Drive,KNGUYEN-LAPTOP
+2026-02-07T20:49:08.752354,cjohnson,payroll.xlsx,\\fileserver01\HR\payroll.xlsx,Uploaded,OneDrive,CJOHNSON-LAPTOP
+2026-02-07T20:49:08.752371,cjohnson,vpn_creds.csv,\\fileserver01\HR\vpn_creds.csv,Copied,Email Attachment,CJOHNSON-LAPTOP
+2026-02-07T20:49:08.752388,jdoe,payroll.xlsx,C:\Users\jdoe\Documents\payroll.xlsx,Copied,Google Drive,JDOE-LAPTOP
+2026-02-07T20:49:08.752410,lmartin,credentials.xlsx,\\nas01\Backups\credentials.xlsx,Created,OneDrive,LMARTIN-LAPTOP
+2026-02-07T20:49:08.752427,dlee,payroll.xlsx,C:\Temp\payroll.xlsx,Moved,USB Drive,DLEE-LAPTOP
+2026-02-07T20:49:08.752451,lmartin,finance_passwords.docx,C:\Shared\finance_passwords.docx,Uploaded,Email Attachment,LMARTIN-LAPTOP
+2026-02-07T20:49:08.752469,mgarcia,master_passwords.txt,\\fileserver01\HR\master_passwords.txt,Uploaded,Google Drive,MGARCIA-LAPTOP
+2026-02-07T20:49:08.752486,knguyen,api_keys.xlsx,C:\Users\knguyen\Documents\api_keys.xlsx,Moved,OneDrive,KNGUYEN-LAPTOP
+2026-02-07T20:49:08.752502,dlee,db_logins.txt,\\fileserver01\IT\db_logins.txt,Moved,Local Disk,DLEE-LAPTOP
+2026-02-07T20:49:08.752517,tsanders,passwords.txt,C:\Shared\passwords.txt,Modified,Google Drive,TSANDERS-LAPTOP
+2026-02-07T20:49:08.752533,asmith,email_passwords.xlsx,\\nas01\Backups\email_passwords.xlsx,Modified,OneDrive,ASMITH-LAPTOP
+2026-02-07T20:49:08.752549,rpatel,onboarding_notes.docx,C:\Temp\onboarding_notes.docx,Uploaded,OneDrive,RPATEL-LAPTOP
+2026-02-07T20:49:08.752565,lmartin,email_passwords.xlsx,C:\Shared\email_passwords.xlsx,Copied,Email Attachment,LMARTIN-LAPTOP
+2026-02-07T20:49:08.752581,asmith,vpn_creds.csv,C:\Shared\vpn_creds.csv,Created,USB Drive,ASMITH-LAPTOP
+2026-02-07T20:49:08.752602,knguyen,passwords.txt,C:\Shared\passwords.txt,Copied,Local Disk,KNGUYEN-LAPTOP
+2026-02-07T20:49:08.752631,mgarcia,creds.csv,C:\Users\mgarcia\Downloads\creds.csv,Moved,Google Drive,MGARCIA-LAPTOP
+2026-02-07T20:49:08.752656,bwilliams,email_passwords.xlsx,\\fileserver01\HR\email_passwords.xlsx,Created,USB Drive,BWILLIAMS-LAPTOP
+2026-02-07T20:49:08.752686,bwilliams,api_keys.xlsx,C:\Users\bwilliams\Documents\api_keys.xlsx,Modified,USB Drive,BWILLIAMS-LAPTOP
+2026-02-07T20:49:08.752718,jdoe,employee_list.csv,\\fileserver01\IT\employee_list.csv,Created,Google Drive,JDOE-LAPTOP
+2026-02-07T20:49:08.752746,lmartin,user_credentials.doc,\\nas01\Backups\user_credentials.doc,Created,USB Drive,LMARTIN-LAPTOP
+2026-02-07T20:49:08.752773,asmith,email_passwords.xlsx,\\fileserver01\IT\email_passwords.xlsx,Moved,Google Drive,ASMITH-LAPTOP
+2026-02-07T20:49:08.752800,mgarcia,vpn_creds.csv,\\nas01\Backups\vpn_creds.csv,Copied,Google Drive,MGARCIA-LAPTOP
+2026-02-07T20:49:08.752817,cjohnson,onboarding_notes.docx,\\fileserver01\HR\onboarding_notes.docx,Copied,USB Drive,CJOHNSON-LAPTOP
+2026-02-07T20:49:08.752854,jdoe,passwords.txt,C:\Shared\passwords.txt,Uploaded,OneDrive,JDOE-LAPTOP
+2026-02-07T20:49:08.752884,jdoe,prod_passwords.txt,\\fileserver01\IT\prod_passwords.txt,Moved,OneDrive,JDOE-LAPTOP
+2026-02-07T20:49:08.752909,cjohnson,email_passwords.xlsx,C:\Users\cjohnson\Desktop\email_passwords.xlsx,Modified,USB Drive,CJOHNSON-LAPTOP
+2026-02-07T20:49:08.752927,rpatel,final_passwords.docx,C:\Users\rpatel\Desktop\final_passwords.docx,Copied,USB Drive,RPATEL-LAPTOP
+2026-02-07T20:49:08.752946,mgarcia,passwords.txt,C:\Users\mgarcia\Desktop\passwords.txt,Created,Local Disk,MGARCIA-LAPTOP
+2026-02-07T20:49:08.752962,bwilliams,legacy_passwords.doc,\\fileserver01\HR\legacy_passwords.doc,Created,Local Disk,BWILLIAMS-LAPTOP
+2026-02-07T20:49:08.752978,jdoe,passwords.txt,\\fileserver01\HR\passwords.txt,Modified,Google Drive,JDOE-LAPTOP
+2026-02-07T20:49:08.752996,lmartin,prod_passwords.txt,C:\Users\lmartin\Downloads\prod_passwords.txt,Moved,USB Drive,LMARTIN-LAPTOP
+2026-02-07T20:49:08.753012,cjohnson,credentials.xlsx,C:\Shared\credentials.xlsx,Uploaded,Google Drive,CJOHNSON-LAPTOP
+2026-02-07T20:49:08.753028,knguyen,employee_list.csv,C:\Shared\employee_list.csv,Copied,Email Attachment,KNGUYEN-LAPTOP
+2026-02-07T20:49:08.753044,tsanders,payroll.xlsx,C:\Users\tsanders\Documents\payroll.xlsx,Created,USB Drive,TSANDERS-LAPTOP
+2026-02-07T20:49:08.753070,rpatel,legacy_passwords.doc,C:\Users\rpatel\Documents\legacy_passwords.doc,Created,USB Drive,RPATEL-LAPTOP
+2026-02-07T20:49:08.753099,knguyen,payroll.xlsx,C:\Shared\payroll.xlsx,Created,Email Attachment,KNGUYEN-LAPTOP
+2026-02-07T20:49:08.753122,jdoe,passwords.txt,\\nas01\Backups\passwords.txt,Created,OneDrive,JDOE-LAPTOP
+2026-02-07T20:49:08.753138,cjohnson,payroll.xlsx,C:\Temp\payroll.xlsx,Moved,Local Disk,CJOHNSON-LAPTOP
+2026-02-07T20:49:08.753158,tsanders,creds.csv,\\fileserver01\IT\creds.csv,Moved,Local Disk,TSANDERS-LAPTOP
+2026-02-07T20:49:08.753175,jdoe,logins.txt,C:\Users\jdoe\Documents\logins.txt,Copied,Google Drive,JDOE-LAPTOP
+2026-02-07T20:49:08.753191,knguyen,final_passwords.docx,\\fileserver01\HR\final_passwords.docx,Uploaded,Google Drive,KNGUYEN-LAPTOP
+2026-02-07T20:49:08.753207,asmith,finance_passwords.docx,\\fileserver01\HR\finance_passwords.docx,Created,Local Disk,ASMITH-LAPTOP
+2026-02-07T20:49:08.753234,cjohnson,security_overview.rtf,C:\Users\cjohnson\Documents\security_overview.rtf,Uploaded,Google Drive,CJOHNSON-LAPTOP
+2026-02-07T20:49:08.753252,dlee,incident_report.doc,C:\Shared\incident_report.doc,Created,Google Drive,DLEE-LAPTOP
+2026-02-07T20:49:08.753267,lmartin,api_keys.xlsx,\\fileserver01\HR\api_keys.xlsx,Copied,USB Drive,LMARTIN-LAPTOP
+2026-02-07T20:49:08.753283,jdoe,creds.csv,\\fileserver01\IT\creds.csv,Modified,Google Drive,JDOE-LAPTOP
+2026-02-07T20:49:08.753299,dlee,security_overview.rtf,C:\Temp\security_overview.rtf,Uploaded,USB Drive,DLEE-LAPTOP
+2026-02-07T20:49:08.753316,lmartin,vpn_creds.csv,C:\Temp\vpn_creds.csv,Created,USB Drive,LMARTIN-LAPTOP
+2026-02-07T20:49:08.753332,lmartin,ssh_logins.txt,C:\Temp\ssh_logins.txt,Created,Email Attachment,LMARTIN-LAPTOP
+2026-02-07T20:49:08.753348,tsanders,db_logins.txt,C:\Temp\db_logins.txt,Copied,OneDrive,TSANDERS-LAPTOP
+2026-02-07T20:49:08.753365,lmartin,master_passwords.txt,C:\Users\lmartin\Downloads\master_passwords.txt,Modified,Email Attachment,LMARTIN-LAPTOP
+2026-02-07T20:49:08.753382,bwilliams,ssh_logins.txt,C:\Users\bwilliams\Downloads\ssh_logins.txt,Copied,Local Disk,BWILLIAMS-LAPTOP
+2026-02-07T20:49:08.753402,knguyen,logins.txt,\\fileserver01\IT\logins.txt,Moved,USB Drive,KNGUYEN-LAPTOP
+2026-02-07T20:49:08.753419,cjohnson,creds.csv,C:\Users\cjohnson\Documents\creds.csv,Modified,Google Drive,CJOHNSON-LAPTOP
+2026-02-07T20:49:08.753437,jdoe,ssh_logins.txt,C:\Users\jdoe\Documents\ssh_logins.txt,Created,USB Drive,JDOE-LAPTOP
+2026-02-07T20:49:08.753453,asmith,prod_passwords.txt,\\fileserver01\HR\prod_passwords.txt,Copied,Email Attachment,ASMITH-LAPTOP
+2026-02-07T20:49:08.753469,asmith,credentials.xlsx,C:\Users\asmith\Documents\credentials.xlsx,Uploaded,OneDrive,ASMITH-LAPTOP
+2026-02-07T20:49:08.753485,lmartin,prod_passwords.txt,C:\Users\lmartin\Documents\prod_passwords.txt,Created,OneDrive,LMARTIN-LAPTOP
+2026-02-07T20:49:08.753502,rpatel,master_passwords.txt,C:\Users\rpatel\Documents\master_passwords.txt,Modified,USB Drive,RPATEL-LAPTOP
+2026-02-07T20:49:08.753518,knguyen,api_keys.xlsx,C:\Shared\api_keys.xlsx,Uploaded,Google Drive,KNGUYEN-LAPTOP
