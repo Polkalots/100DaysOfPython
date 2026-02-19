@@ -29,5 +29,7 @@ if __name__=='__main__':
     main(args.file, args.word)
 
 # 2/19/2026
-# Working on practicing more with dictionaries. In this task, we built a slightly more robust command-line word counter.              
+# Working on practicing more with dictionaries. In this task, we built a slightly more robust command-line word counter.
+# This word counter accepts a text file as input, along with an optional word to search for. If no word is given,
+# it will return the count of every word in the file.              
                
