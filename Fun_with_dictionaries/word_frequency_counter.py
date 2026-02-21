@@ -2,18 +2,27 @@ import argparse
 import re
 from collections import Counter
 
-def main(file, word=None):
+def main(file, words=None, top=None):
     word_count = word_counter(file)
-    if word:
-        print(f'Searching for word {word} in {file}...')
-        if word in word_count:
-            print(f'{word} : {word_count.get(word)}')
-        else:
-            print(f'{word} not found in {file}.')
-    else:
+    if not words and not top:
         print('Word Count: ')
         for word in word_count:
             print(f'{word} : {word_count.get(word)}')
+            
+    if words:
+        for item in words:
+            print(f'Searching for word [{item}] in [{file}]...')
+            count = word_count.get(item)
+            if count:
+                print(f'Word [{item}] found:\n{item} : {count}')
+            else:
+                print(f'[{item}] not found in [{file}].')
+    if top:
+        most_common = word_count.most_common(top)
+        print(f'Top {top} words:')
+        for w, count in most_common:
+            print(f'{w} : {count}')
+
 
 def word_counter(file):
     with open(file, 'r') as f:
@@ -24,12 +33,17 @@ def word_counter(file):
 if __name__=='__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('-f', '--file', required=True, help='Path to input file')
-    parser.add_argument('-w', '--word', help='Optional word to search for')
+    parser.add_argument('-w', '--words', action='append', help='Optional word to search for')
+    parser.add_argument('-t', '--top', type=int, help='Identify the top n number of words.')
     args = parser.parse_args()
-    main(args.file, args.word)
+    main(args.file, args.words, args.top)
 
 # 2/19/2026
 # Working on practicing more with dictionaries. In this task, we built a slightly more robust command-line word counter.
 # This word counter accepts a text file as input, along with an optional word to search for. If no word is given,
-# it will return the count of every word in the file.              
+# it will return the count of every word in the file.  
+# 
+# 2/20/2026
+# Added a bit more functionality to the code. Ajusted the --words parser using action-'append' to allow
+# it to accept the words argument more than once, and adjusted the logic in main to account for more than one possible word.            
                
