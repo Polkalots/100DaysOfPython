@@ -4,25 +4,30 @@ from collections import Counter
 
 def main(file, words=None, top=None):
     word_count = word_counter(file)
+
+    # If no arguments are supplied, print out the count for each word in the file.
     if not words and not top:
         print('Word Count: ')
         for word in word_count:
             print(f'{word} : {word_count.get(word)}')
-            
+
+    # If one or more -w argument is supplied, runs case insensitive search for the word using the result from word_counter(). If found, print the word and the number of times it appears.        
     if words:
         for item in words:
-            print(f'Searching for word [{item}] in [{file}]...')
+            item = item.lower()
+            print(f'Searching for word "{item}" in [{file}]...\n')
             count = word_count.get(item)
             if count:
-                print(f'Word [{item}] found:\n{item} : {count}')
+                print(f'Word "{item}" found:\n{item} : {count}\n')
             else:
-                print(f'[{item}] not found in [{file}].')
+                print(f'"{item}" not found in [{file}].\n')
+    
+    # if the -t argument is supplied, print the top(t) number of words in the file along with the count for each.
     if top:
         most_common = word_count.most_common(top)
         print(f'Top {top} words:')
         for w, count in most_common:
             print(f'{w} : {count}')
-
 
 def word_counter(file):
     with open(file, 'r') as f:
