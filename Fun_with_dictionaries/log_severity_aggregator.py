@@ -1,48 +1,37 @@
 # Task: Create a dictionary mapping log level → count. Output results sorted by frequency.
 import csv
 import argparse
-from collections import Counter
 
 def main(file, level=None):
-    level_count = count_log_levels(file)
-    level_lines = find_levels(file, level)
-    for l, c in level_count.items():
+    counts, lines = process_log(file, level)
+    for l, c in counts.items():
         print(f"Level:\n{l}:{c}\n")
 
-    if level:
-        if level_lines:
-            for line in level_lines:
-                print(line)
-        else:
-            print('Level not found.')
-       #for line in log_file:
-        #print(line)
+    if lines:
+        for line in lines:
+            print(line)
+    else:
+        print(f'Level {level} not found.')
 
-def count_log_levels(file):
-    level_values = {}
+def process_log(file, level):
+    level_counts = {} # holds the overall count for each log severity level
+    log_lines = [] # holds matches for the log levels that were searched for
+    if level:
+        levels = [item.strip().lower() for item in level] # Because the command accepts multiple log levels to search for, each 'level' argument is part of a list object.
+    else:
+        levels = [] # create an empty list if the level argument is not provided. This keeps the function from crashing later on.
     with open(file, newline='') as f:
         log_file = csv.DictReader(f)
         for line in log_file:
-            # for item in line:
-            #     print(line.get(item))
-            level = line['Level']
-            if level not in level_values:
-                level_values[level] = 1
+            row_level = line['Level'].strip().lower() # normalize the levels in the log file
+            if row_level not in level_counts: # iterate through each line, and if the level for that line is not in the level_counts variable, add it and make its count 1.
+                level_counts[row_level] = 1 
             else:
-                level_values[level] += 1
-    return level_values
+                level_counts[row_level] += 1 # if the level for a given line is in the level_counts variable, increase its count by 1.
 
-def find_levels(file, level):
-    log_lines = []
-    levels = []
-    for item in level:
-        levels.append(item.strip().lower())
-    with open(file, newline='') as f:
-        log_file=csv.DictReader(f)
-        for line in log_file:
-            if line['Level'].lower().strip() in levels:
+            if levels and row_level in levels: # if the level argument is provided, check each line to see if it matches the provided level argument, and if so, add it to the log_lines variable.
                 log_lines.append(line)
-        return log_lines
+    return level_counts, log_lines
 
 if __name__=='__main__':
     parser = argparse.ArgumentParser()
