@@ -5,7 +5,7 @@ import argparse
 def main(file, level=None):
     counts, lines = process_log(file, level)
     for l, c in counts.items():
-        print(f"Level:\n{l}:{c}\n")
+        print(f"Level: {l}\n{c}\n")
 
     if lines:
         for line in lines:
